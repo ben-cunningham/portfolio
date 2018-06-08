@@ -1,0 +1,30 @@
+body {
+    background-color: #E0F7FF;
+    font-family: Menlo;
+    color: #383838;
+}
+
+.container {
+    padding-top: 1.5em;
+    margin: auto;
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #383838;
+    background-color: #c9e0e8;
+}
+
+.title {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.list {
+    padding-top: 20px;
+}
+
+.list ul {
+    padding: 0px;
+}
