@@ -8,10 +8,18 @@
       "**/node_modules/**"
     ],
     "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
+         {
+            "source": "**/bundle.js",
+            "destination": "/bundle.js"
+        },
+        {
+            "source": "**/portfolio/**",
+            "destination": "/portfolio.html"
+        },
+        {
+            "source": "**/",
+            "destination": "/index.html"
+        }
+   ]
   }
 }
